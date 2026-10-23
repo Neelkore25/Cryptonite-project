@@ -1,0 +1,292 @@
+[
+  {
+    "user_id": "alice_trader_2019",
+    "final_score": 89.6,
+    "fuzzy_trust_score": 79.1,
+    "ann_bot_probability": 10.4,
+    "fuzzy_inputs": {
+      "account_age": 91.1,
+      "txn_regularity": 56.5,
+      "network_diversity": 77.1,
+      "verification": 100.0
+    },
+    "risk_level": "TRUSTED",
+    "icon": "\u2705",
+    "message": "Account shows strong, consistent human-like activity.",
+    "reasons": [
+      "No significant risk indicators detected."
+    ],
+    "raw_features": {
+      "account_age_days": 431.009,
+      "txn_count": 71,
+      "txn_per_day": 0.165,
+      "avg_txn_interval_std": 19.86,
+      "unique_counterparties": 42,
+      "counterparty_diversity": 0.592,
+      "avg_txn_value": 102.287,
+      "txn_value_variance": 67.889,
+      "night_activity_ratio": 0.156,
+      "kyc_verified": 1,
+      "social_followers": 289,
+      "social_following": 58,
+      "follower_following_ratio": 4.983,
+      "flagged_reports": 0,
+      "withdrawal_to_deposit_ratio": 1.144
+    }
+  },
+  {
+    "user_id": "quickflip_bot_007",
+    "final_score": 14.5,
+    "fuzzy_trust_score": 29.0,
+    "ann_bot_probability": 83.6,
+    "fuzzy_inputs": {
+      "account_age": 52.7,
+      "txn_regularity": 16.5,
+      "network_diversity": 11.6,
+      "verification": 0.1
+    },
+    "risk_level": "SUSPICIOUS_BOT",
+    "icon": "\ud83d\udd34",
+    "message": "Account matches automated/scam-bot behavior closely. Alert triggered.",
+    "reasons": [
+      "Transaction timing/value pattern looks robotic and unnaturally regular.",
+      "Interacts with a very narrow, repetitive set of wallets and mostly at odd hours.",
+      "No KYC verification and/or suspicious follower-to-following ratio and reports on file.",
+      "Neural network flags this activity pattern as bot-like with 100.0% confidence."
+    ],
+    "raw_features": {
+      "account_age_days": 43.822,
+      "txn_count": 1775,
+      "txn_per_day": 40.489,
+      "avg_txn_interval_std": 6.143,
+      "unique_counterparties": 98,
+      "counterparty_diversity": 0.055,
+      "avg_txn_value": 22.925,
+      "txn_value_variance": 2.963,
+      "night_activity_ratio": 0.773,
+      "kyc_verified": 0,
+      "social_followers": 2,
+      "social_following": 421,
+      "follower_following_ratio": 0.005,
+      "flagged_reports": 5,
+      "withdrawal_to_deposit_ratio": 1.12
+    }
+  },
+  {
+    "user_id": "0xAnon_new_wallet",
+    "final_score": 13.4,
+    "fuzzy_trust_score": 26.7,
+    "ann_bot_probability": 94.2,
+    "fuzzy_inputs": {
+      "account_age": 47.8,
+      "txn_regularity": 5.6,
+      "network_diversity": 16.6,
+      "verification": 20.1
+    },
+    "risk_level": "SUSPICIOUS_BOT",
+    "icon": "\ud83d\udd34",
+    "message": "Account matches automated/scam-bot behavior closely. Alert triggered.",
+    "reasons": [
+      "Transaction timing/value pattern looks robotic and unnaturally regular.",
+      "Interacts with a very narrow, repetitive set of wallets and mostly at odd hours.",
+      "No KYC verification and/or suspicious follower-to-following ratio and reports on file.",
+      "Neural network flags this activity pattern as bot-like with 100.0% confidence."
+    ],
+    "raw_features": {
+      "account_age_days": 32.569,
+      "txn_count": 977,
+      "txn_per_day": 29.981,
+      "avg_txn_interval_std": 1.436,
+      "unique_counterparties": 130,
+      "counterparty_diversity": 0.133,
+      "avg_txn_value": 19.193,
+      "txn_value_variance": 3.082,
+      "night_activity_ratio": 0.835,
+      "kyc_verified": 0,
+      "social_followers": 2,
+      "social_following": 251,
+      "follower_following_ratio": 0.008,
+      "flagged_reports": 1,
+      "withdrawal_to_deposit_ratio": 1.291
+    }
+  },
+  {
+    "user_id": "grandma_hodler",
+    "final_score": 90.4,
+    "fuzzy_trust_score": 80.7,
+    "ann_bot_probability": 13.0,
+    "fuzzy_inputs": {
+      "account_age": 92.8,
+      "txn_regularity": 79.3,
+      "network_diversity": 73.5,
+      "verification": 100.0
+    },
+    "risk_level": "TRUSTED",
+    "icon": "\u2705",
+    "message": "Account shows strong, consistent human-like activity.",
+    "reasons": [
+      "No significant risk indicators detected."
+    ],
+    "raw_features": {
+      "account_age_days": 477.597,
+      "txn_count": 80,
+      "txn_per_day": 0.168,
+      "avg_txn_interval_std": 17.662,
+      "unique_counterparties": 41,
+      "counterparty_diversity": 0.512,
+      "avg_txn_value": 17.501,
+      "txn_value_variance": 48.387,
+      "night_activity_ratio": 0.045,
+      "kyc_verified": 1,
+      "social_followers": 279,
+      "social_following": 109,
+      "follower_following_ratio": 2.56,
+      "flagged_reports": 0,
+      "withdrawal_to_deposit_ratio": 0.891
+    }
+  },
+  {
+    "user_id": "airdrop_hunter_x1000",
+    "final_score": 11.3,
+    "fuzzy_trust_score": 22.6,
+    "ann_bot_probability": 95.6,
+    "fuzzy_inputs": {
+      "account_age": 36.9,
+      "txn_regularity": 6.8,
+      "network_diversity": 12.2,
+      "verification": 60.7
+    },
+    "risk_level": "SUSPICIOUS_BOT",
+    "icon": "\ud83d\udd34",
+    "message": "Account matches automated/scam-bot behavior closely. Alert triggered.",
+    "reasons": [
+      "Transaction timing/value pattern looks robotic and unnaturally regular.",
+      "Interacts with a very narrow, repetitive set of wallets and mostly at odd hours.",
+      "Neural network flags this activity pattern as bot-like with 99.9% confidence."
+    ],
+    "raw_features": {
+      "account_age_days": 16.652,
+      "txn_count": 890,
+      "txn_per_day": 53.402,
+      "avg_txn_interval_std": 1.805,
+      "unique_counterparties": 77,
+      "counterparty_diversity": 0.087,
+      "avg_txn_value": 23.379,
+      "txn_value_variance": 4.393,
+      "night_activity_ratio": 0.847,
+      "kyc_verified": 1,
+      "social_followers": 12,
+      "social_following": 225,
+      "follower_following_ratio": 0.053,
+      "flagged_reports": 3,
+      "withdrawal_to_deposit_ratio": 1.347
+    }
+  },
+  {
+    "user_id": "satoshi_disciple",
+    "final_score": 90.1,
+    "fuzzy_trust_score": 80.1,
+    "ann_bot_probability": 0.0,
+    "fuzzy_inputs": {
+      "account_age": 71.8,
+      "txn_regularity": 90.3,
+      "network_diversity": 64.5,
+      "verification": 100.0
+    },
+    "risk_level": "TRUSTED",
+    "icon": "\u2705",
+    "message": "Account shows strong, consistent human-like activity.",
+    "reasons": [
+      "No significant risk indicators detected."
+    ],
+    "raw_features": {
+      "account_age_days": 137.052,
+      "txn_count": 19,
+      "txn_per_day": 0.139,
+      "avg_txn_interval_std": 27.051,
+      "unique_counterparties": 8,
+      "counterparty_diversity": 0.421,
+      "avg_txn_value": 8.694,
+      "txn_value_variance": 19.764,
+      "night_activity_ratio": 0.078,
+      "kyc_verified": 1,
+      "social_followers": 176,
+      "social_following": 35,
+      "follower_following_ratio": 5.029,
+      "flagged_reports": 0,
+      "withdrawal_to_deposit_ratio": 1.105
+    }
+  },
+  {
+    "user_id": "pump_signal_caller",
+    "final_score": 13.8,
+    "fuzzy_trust_score": 27.6,
+    "ann_bot_probability": 98.4,
+    "fuzzy_inputs": {
+      "account_age": 57.7,
+      "txn_regularity": 7.3,
+      "network_diversity": 8.8,
+      "verification": 60.3
+    },
+    "risk_level": "SUSPICIOUS_BOT",
+    "icon": "\ud83d\udd34",
+    "message": "Account matches automated/scam-bot behavior closely. Alert triggered.",
+    "reasons": [
+      "Transaction timing/value pattern looks robotic and unnaturally regular.",
+      "Interacts with a very narrow, repetitive set of wallets and mostly at odd hours.",
+      "Neural network flags this activity pattern as bot-like with 100.0% confidence."
+    ],
+    "raw_features": {
+      "account_age_days": 59.167,
+      "txn_count": 3241,
+      "txn_per_day": 54.763,
+      "avg_txn_interval_std": 2.792,
+      "unique_counterparties": 205,
+      "counterparty_diversity": 0.063,
+      "avg_txn_value": 27.842,
+      "txn_value_variance": 1.186,
+      "night_activity_ratio": 0.892,
+      "kyc_verified": 1,
+      "social_followers": 9,
+      "social_following": 433,
+      "follower_following_ratio": 0.021,
+      "flagged_reports": 3,
+      "withdrawal_to_deposit_ratio": 1.231
+    }
+  },
+  {
+    "user_id": "long_term_hodler_99",
+    "final_score": 90.2,
+    "fuzzy_trust_score": 80.4,
+    "ann_bot_probability": 0.0,
+    "fuzzy_inputs": {
+      "account_age": 93.3,
+      "txn_regularity": 74.7,
+      "network_diversity": 54.1,
+      "verification": 95.0
+    },
+    "risk_level": "TRUSTED",
+    "icon": "\u2705",
+    "message": "Account shows strong, consistent human-like activity.",
+    "reasons": [
+      "No significant risk indicators detected."
+    ],
+    "raw_features": {
+      "account_age_days": 491.101,
+      "txn_count": 80,
+      "txn_per_day": 0.163,
+      "avg_txn_interval_std": 26.47,
+      "unique_counterparties": 41,
+      "counterparty_diversity": 0.512,
+      "avg_txn_value": 31.376,
+      "txn_value_variance": 34.566,
+      "night_activity_ratio": 0.692,
+      "kyc_verified": 1,
+      "social_followers": 197,
+      "social_following": 123,
+      "follower_following_ratio": 1.602,
+      "flagged_reports": 0,
+      "withdrawal_to_deposit_ratio": 1.043
+    }
+  }
+]
